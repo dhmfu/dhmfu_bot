@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "mockerify": "0.0.1",
+    "mockerify-temp": "0.0.1",
     "node-telegram-bot-api": "^0.30.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.40.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
